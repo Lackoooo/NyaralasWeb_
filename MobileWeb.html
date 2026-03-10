@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balaton Utazás Költségek</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    margin: 0;
+    padding: 10px;
+    color: #333;
+}
+
+.container{max-width:900px;margin:auto; margin-top: auto; background:white;padding:30px;border-top-left-radius :12px;border-top-right-radius : 12px; box-shadow :0 10px 25px rgba(0,0,0,0.08)}
+.container_1{max-width:900px;margin:auto; margin-top: auto; background:white;padding:30px;border-bottom-left-radius :12px;border-bottom-right-radius :12px;box-shadow:0 10px 25px rgba(0,0,0,0.08)}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.cost-card {
+    background: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.cost-card h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.1em;
+    color: #000000;
+    flex-basis: 100%;
+}
+
+.details {
+    flex: 2 1 60%;
+}
+
+.cost {
+    flex: 1 1 30%;
+    font-weight: bold;
+    text-align: right;
+}
+
+.total-card {
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    text-align: right;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+    .cost-card {
+        flex-direction: column;
+    }
+    .cost {
+        text-align: left;
+        margin-top: 5px;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Balaton Kirándulás Összesítő</h1>
+
+<div class="cost-card">
+    <h2>Út</h2>
+    <div class="details">
+        <a href="https://maps.app.goo.gl/xN2pT4tRVijVyRM47" target="_blank">Google Maps útvonal</a><br>
+        3 óra 40 perc, 350 km
+    </div>
+    <div class="cost">-</div>
+</div>
+
+<div class="cost-card">
+    <h2>Autópálya matrica</h2>
+    <div class="details">Magyar autópálya használat</div>
+    <div class="cost">6999 Ft</div>
+</div>
+
+<div class="cost-card">
+    <h2>Benzin</h2>
+    <div class="details">750 km út, kb 70 liter</div>
+    <div class="cost">45 000 Ft</div>
+</div>
+
+<div class="cost-card">
+    <h2>Szállás</h2>
+    <div class="details">
+        <a href="https://szallas.hu/ps-studio-apartman-heviz?checkin=2026-07-22&checkout=2026-07-27&ref=list&adults=3&children=17&provision=1&listIndex=3&roomtypes=4901022:958736:3:17&rooms=1" target="_blank">Ps Studio Apartman</a><br>
+        5 éjszaka, 3 felnőtt + 1 gyerek
+    </div>
+    <div class="cost">127 450 Ft</div>
+</div>
+
+
+<div class="cost-card">
+    <h2>Pia</h2>
+    <div class="details">Ballantines Wild 0,7l</div>
+    <div class="cost">6300 Ft</div>
+
+    <div class="details">Ballantines Brasil 0,7l</div>
+    <div class="cost">6300 Ft</div>
+
+    <div class="details">Ballantines 1l</div>
+    <div class="cost">9000 Ft</div>
+
+    <div class="details">Sör 40 db</div>
+    <div class="cost">20 000 Ft</div>
+
+    <div class="details">Coca Cola 1 zsugor</div>
+    <div class="cost">4200 Ft</div>
+
+    <div class="details">Víz 36l</div>
+    <div class="cost">3 240 Ft</div>
+</div>
+
+<div class="total-card">
+    Teljes becsült költség: 228 489 Ft
+</div>
+
+<div class="total-card">
+    4 Főre szétosztva: 57 122 Ft
+</div>
+
+</div>
+
+
+<div class="container_1">
+<h1>Programok</h1>
+
+<div class="cost-card">
+    <h2>Programok</h2>
+    <div class="details">
+        <a href="https://www.sporthaz.com/sport/" target="_blank">Sportház <a href="https://maps.app.goo.gl/DSgNXZEtSWFfUpsVA" target="_blank">- Útvonal</a></a><br> - Bowling, Biliárd 
+    </div>
+    <div class="cost">5000 Ft/ óra, 40 Ft/ perc</div> 
+
+    <div class="details">
+        <a href="https://balatonimuzeum.hu/programok/festetics-szabaduloszoba/" target="_blank">Festetics szabadulószoba <a href="https://maps.app.goo.gl/eQkr9PPkHgJdtYdKA" target="_blank">- Útvonal</a></a><br> - 4 fős csapat
+    </div>
+    <div class="cost">16 000 Ft (Előre foglalás szükséges)</div>
+</div>
+
+<div class="cost-card">
+    <h2>Strandok</h2>
+    <div class="details">
+        <a href="https://www.balatontipp.hu/balatoni_strandok/keszthely-varosi-strand-sziget-furdo-viviera/" target="_blank">Keszthelyi Városi strand</a>
+        <a href="https://maps.app.goo.gl/6SZRKahYyfgY5yr3A" target="_blank"> - Útvonal</a><br>
+        Kocsi 14 perc(8 - 9,2 km) <br>  Bicikli 29 perc(7,9 km) 
+    </div>
+    <div class="cost">Diák 1200 Ft</div> 
+
+    <div class="details">
+        <a href="https://www.balatontipp.hu/balatoni_strandok/keszthely_helikon_strand_balaton/" target="_blank">Helikon Strand</a>
+         <a href="https://maps.app.goo.gl/8n3p43RQ7ZEGkAEe6" target="_blank">- Útvonal</a><br>
+        Kocsi 13-14 perc(8,3 - 9,8 km) <br> Bicikli 30 perc(8,5 km)
+    </div>
+    <div class="cost">Diák 800 Ft</div> 
+
+    <div class="details">
+        <a href="https://www.balatontipp.hu/balatoni_strandok/keszthely_libas_strand_balaton/" target="_blank">Libás Strand</a> 
+        <a href="https://maps.app.goo.gl/ea7WgFSvP5G9mrrD9" target="_blank">- Útvonal</a><br>
+        Kocsi 14-17 perc(9,4 - 11,1 km) <br> Bicikli 33 perc(9,2 km)
+    </div>
+    <div class="cost">Diák 1000 Ft</div>
+</div>
+
+
+
+
+</div>
+</body>
+</html>
